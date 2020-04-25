@@ -1,0 +1,163 @@
+    /* TITTLE */
+    
+    .container-fluid {
+        padding: 3% 8% 7%;
+    }
+    
+    #title {
+        background-color: #ff4c68;
+        color: white;
+    }
+    
+    .iphone {
+        transform: rotate(25deg);
+        width: 50%;
+        position: absolute;
+        right: 30%;
+    }
+    
+    @media(max-width:990px) {
+        .iphone {
+            position: static;
+            transform: rotate(0);
+        }
+        #title {
+            text-align: center;
+        }
+    }
+    
+    .navbar-brand {
+        font-family: 'Ubuntu';
+        font-size: 30px;
+    }
+    
+    .navbar {
+        padding: 0 0 45px;
+    }
+    
+    .nav-item {
+        padding: 0 25px;
+    }
+    
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    
+    button {
+        margin-top: 10px;
+    }
+    /* FEATURES */
+    
+    #features {
+        padding: 6% 9%;
+        position: relative;
+        background-color: #fff;
+        z-index: 1;
+    }
+    
+    h3 {
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+    
+    p {
+        color: gray;
+    }
+    
+    .feature_icon {
+        color: #ff4c68;
+        padding-bottom: 17px;
+    }
+    
+    .feature_icon:hover {
+        color: brown;
+    }
+    
+    .feature_box {
+        padding: 0 8%;
+    }
+    /* TESTIMONIAL */
+    
+    #testimonials {
+        text-align: center;
+        background-color: #ff4c68;
+        padding-top: 100px;
+    }
+    
+    .testimonial-text {
+        font-size: 35px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .carousel-item {
+        padding: 0 250px;
+    }
+    
+    .testimonial-image {
+        width: 15%;
+        border-radius: 100%;
+        padding: 1% 2%;
+    }
+    /* PRESS */
+    
+    #press {
+        background-color: #ff4c68;
+        padding: 8%;
+    }
+    
+    .press-image {
+        width: 250px
+    }
+    /* PRICING */
+    
+    .price-row {
+        padding: 30px 90px;
+    }
+    
+    #pricing {
+        padding: 100px;
+        text-align: center;
+    }
+    /* CALL TO ACTION */
+    
+    #cta {
+        background-color: #ff4c68;
+        text-align: center;
+        padding: 6% 7%;
+        margin-top: 0;
+    }
+    
+    .callToAction {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 25px;
+        width: 70%;
+        margin-left: 175px;
+    }
+    /* FOOTER */
+    
+    #footer {
+        margin: 100px 100px;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .copyright {
+        font-size: 15px;
+        font-family: 'Ubuntu';
+        color: gray;
+    }
+    
+    .copyright {
+        padding: 10px;
+    }
+    
+    .icon {
+        padding: 5px;
+        font-size: 20px;
+    }
